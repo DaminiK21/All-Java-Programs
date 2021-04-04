@@ -6,6 +6,7 @@ public class AbstractMethodDemoChild extends AbstractClassParent {
 	public void iamAbstractMethod() {
 		// TODO Auto-generated method stub
 		System.out.println("here i am child method");
+		System.out.println(a);
 	}
 	public static void main(String[]args) {
 		AbstractClassParent parent= new AbstractMethodDemoChild();
@@ -13,6 +14,7 @@ public class AbstractMethodDemoChild extends AbstractClassParent {
 		parent.iamNotAbstractMethod();
 		AbstractMethodDemoChild child= new AbstractMethodDemoChild();
 		child.iamAbstractMethod();
+		
 	}
 	
 	

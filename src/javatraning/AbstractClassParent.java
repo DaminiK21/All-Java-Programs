@@ -6,5 +6,6 @@ public abstract class AbstractClassParent {
 	}
 	
 	
+	public int a=1;
 	public abstract void iamAbstractMethod();
 }
