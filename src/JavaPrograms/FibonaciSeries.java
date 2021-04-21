@@ -15,6 +15,9 @@ public class FibonaciSeries {
 			n2=n3;
 		}
 		
+		
+		
+		
 
 	}
 

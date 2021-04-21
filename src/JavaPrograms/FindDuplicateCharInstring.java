@@ -16,6 +16,11 @@ public class FindDuplicateCharInstring {
 		  for(int i=0;i<s.length();i++) {
 		  
 		  count=1; for(int j=i+1;j<s.length();j++) { if(ch[i]==ch[j] && ch[j]!=' ') {
+			  
+			  
+			  
+			  
+			  
 		  
 		  count++; 
 		  ch[j]='0'; } }
